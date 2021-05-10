@@ -23,6 +23,7 @@ namespace OpenApiExample.Controllers
     public class PostRequest
     {
         public FlagsEnum RequestFlags { get; set; }
+        public Thing? SomeThing { get; set; }
     }
 
     // base class / sub class

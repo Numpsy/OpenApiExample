@@ -148,6 +148,14 @@
         "properties": {
           "requestFlags": {
             "$ref": "#/components/schemas/FlagsEnum"
+          },
+          "someThing": {
+            "nullable": true,
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Thing"
+              }
+            ]
           }
         }
       },

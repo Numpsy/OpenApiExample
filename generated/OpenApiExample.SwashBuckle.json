@@ -157,6 +157,9 @@
         "properties": {
           "requestFlags": {
             "$ref": "#/components/schemas/FlagsEnum"
+          },
+          "someThing": {
+            "$ref": "#/components/schemas/Thing"
           }
         },
         "additionalProperties": false
